@@ -26,6 +26,12 @@ nav-menu: true
     <th class="table-element">Link</th>
   </tr>
   <tr>
+	<td class="table-element">LIGHT</td>
+	<td class="table-element" id="repo-desc4">Loading description...</td>
+	<td class="table-element">Github repository</td>
+	<td class="table-element"><a href="https://snurftech.com/projects/light">https://snurftech.com/projects/light</a></td>
+  </tr>
+  <tr>
 	<td class="table-element">Yes for a-Shell</td>
 	<td class="table-element" id="repo-desc1">Loading description...</td>
     <td class="table-element">Github repository (Archived)</td>
@@ -71,6 +77,15 @@ fetch("https://api.github.com/repos/SnurfTech/apt-for-gentoo")
   })
   .catch(() => {
     document.getElementById("repo-desc3").textContent = "Failed to load description.";
+  });
+
+fetch("https://api.github.com/repos/SnurfTech/light")
+  .then(r => r.json())
+  .then(data => {
+    document.getElementById("repo-desc4").textContent = data.description;
+  })
+  .catch(() => {
+    document.getElementById("repo-desc4").textContent = "Failed to load description.";
   });
 </script>
 
