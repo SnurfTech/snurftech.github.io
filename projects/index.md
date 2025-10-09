@@ -29,13 +29,13 @@ nav-menu: true
 	<td class="table-element">Yes for a-Shell</td>
 	<td class="table-element" id="repo-desc1">Loading description…</td>
     <td class="table-element">Github repository (Archived)</td>
-    <td class="table-element"><a href="https://github.com/SnurfTech/yes-a-shell/">https://github.com/XRG2014/yes-a-shell/</a></td>
+    <td class="table-element"><a href="https://github.com/SnurfTech/yes-a-shell/">https://snurftech.com/projects/yes-a-shell</a></td>
   </tr>
   <tr>
     <td class="table-element">Node.js for a-Shell</td>
 	<td class="table-element" id="repo-desc2">Loading description…</td>
     <td class="table-element">Github repository (Archived)</td>
-    <td class="table-element"><a href="https://github.com/SnurfTech/node.js-a-shell/">https://github.com/XRG2014/node.js-a-shell/</a></td>
+    <td class="table-element"><a href="https://github.com/SnurfTech/node.js-a-shell/">https://snurftech.com/projects/node.js-a-shell/</a></td>
   </tr>
 </table>
 
