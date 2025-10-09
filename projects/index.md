@@ -67,10 +67,10 @@ fetch("https://api.github.com/repos/SnurfTech/node.js-a-shell")
 fetch("https://api.github.com/repos/SnurfTech/apt-for-gentoo")
   .then(r => r.json())
   .then(data => {
-    document.getElementById("repo-desc2").textContent = data.description;
+    document.getElementById("repo-desc3").textContent = data.description;
   })
   .catch(() => {
-    document.getElementById("repo-desc2").textContent = "Failed to load description.";
+    document.getElementById("repo-desc3").textContent = "Failed to load description.";
   });
 </script>
 
