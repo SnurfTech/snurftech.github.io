@@ -38,7 +38,7 @@ nav-menu: true
     <td class="table-element"><a href="https://snurftech.com/projects/node.js-a-shell">https://snurftech.com/projects/node.js-a-shell</a></td>
   </tr>
   <tr>
-	<td class="table-element">APT for Gentoo</td>
+	<td class="table-element">APT for Gentoo Linux</td>
 	<td class="table-element" id="repo-desc3">Loading description...</td>
 	<td class="table-element">Github repository (Archived)</td>
 	<td class="table-element"><a href="https://snurftech.com/projects/apt-for-gentoo">https://snurftech.com/projects/apt-for-gentoo</a></td>
