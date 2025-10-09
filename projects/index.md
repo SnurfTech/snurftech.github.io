@@ -27,15 +27,21 @@ nav-menu: true
   </tr>
   <tr>
 	<td class="table-element">Yes for a-Shell</td>
-	<td class="table-element" id="repo-desc1">Loading description…</td>
+	<td class="table-element" id="repo-desc1">Loading description...</td>
     <td class="table-element">Github repository (Archived)</td>
     <td class="table-element"><a href="https://snurftech.com/projects/yes-a-shell">https://snurftech.com/projects/yes-a-shell</a></td>
   </tr>
   <tr>
     <td class="table-element">Node.js for a-Shell</td>
-	<td class="table-element" id="repo-desc2">Loading description…</td>
+	<td class="table-element" id="repo-desc2">Loading description...</td>
     <td class="table-element">Github repository (Archived)</td>
     <td class="table-element"><a href="https://snurftech.com/projects/node.js-a-shell">https://snurftech.com/projects/node.js-a-shell</a></td>
+  </tr>
+  <tr>
+	<td class="table-element">APT for Gentoo</td>
+	<td class="table-element" id="repo-desc3">Loading description...</td>
+	<td class="table-element">Github repository (Archived)</td>
+	<td class="table-element"><a href="https://snurftech.com/projects/apt-for-gentoo">https://snurftech.com/projects/apt-for-gentoo</a></td>
   </tr>
 </table>
 
@@ -50,6 +56,15 @@ fetch("https://api.github.com/repos/SnurfTech/yes-a-shell")
   });
 
 fetch("https://api.github.com/repos/SnurfTech/node.js-a-shell")
+  .then(r => r.json())
+  .then(data => {
+    document.getElementById("repo-desc2").textContent = data.description;
+  })
+  .catch(() => {
+    document.getElementById("repo-desc2").textContent = "Failed to load description.";
+  });
+
+fetch("https://api.github.com/repos/SnurfTech/apt-for-gentoo")
   .then(r => r.json())
   .then(data => {
     document.getElementById("repo-desc2").textContent = data.description;
