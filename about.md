@@ -1,0 +1,39 @@
+---
+layout: page
+title: About Me
+description: Stuff about me.
+nav-menu: true
+---
+
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- Content -->
+<div id="output">Loading ...</div>
+
+<script>
+  // URL of the Markdown file
+  const markdownUrl = 'https://raw.githubusercontent.com/{{ site.author }}/{{ site.author }}/refs/heads/main/README.md';
+
+  // Fetch the Markdown file from the URL
+  fetch(markdownUrl)
+    .then(response => {
+      if (!response.ok) {
+        throw new Error(`Failed to fetch Markdown file: ${response.statusText}`);
+      }
+      return response.text();
+    })
+    .then(markdown => {
+      // Convert Markdown to HTML using Marked.js
+      const htmlContent = marked.parse(markdown);
+
+      // Inject the converted HTML into the output div
+      document.getElementById('output').innerHTML = htmlContent;
+    })
+    .catch(error => {
+      // Display an error message if something goes wrong
+      document.getElementById('output').textContent = `Error: ${error.message}`;
+    });
+</script>
+</div>
+</section>
