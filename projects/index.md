@@ -26,6 +26,12 @@ nav-menu: true
     <th class="table-element">Link</th>
   </tr>
   <tr>
+	<td class="table-element">Marz</td>
+	<td class="table-element" id="repo-desc5">Loading description...</td>
+	<td class="table-element">Github repository</td>
+	<td class="table-element"><a href="https://snurftech.com/projects/marz">https://snurftech.com/projects/marz</a></td>
+  </tr>
+  <tr>
 	<td class="table-element">LIGHT</td>
 	<td class="table-element" id="repo-desc4">Loading description...</td>
 	<td class="table-element">Github repository</td>
@@ -86,6 +92,15 @@ fetch("https://api.github.com/repos/SnurfTech/light")
   })
   .catch(() => {
     document.getElementById("repo-desc4").textContent = "Failed to load description.";
+  });
+
+fetch("https://api.github.com/repos/SnurfTech/marz")
+  .then(r => r.json())
+  .then(data => {
+    document.getElementById("repo-desc5").textContent = data.description;
+  })
+  .catch(() => {
+    document.getElementById("repo-desc5").textContent = "Failed to load description.";
   });
 </script>
 
