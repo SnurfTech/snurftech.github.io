@@ -7,6 +7,7 @@ nav-menu: true
 
 <!-- Main -->
 <div id="main" class="alt">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
 <!-- Content -->
 <div id="output">Loading ...</div>
