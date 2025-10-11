@@ -21,6 +21,44 @@
     margin-top: 0;
     max-width: 500px;
   }
+
+  .iframe-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 600px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border: 1px solid #ccc;
+  }
+
+  .iframe-placeholder {
+    position: absolute;
+    inset: 0;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .iframe-play {
+    font-size: 1.5em;
+    background: rgba(255, 255, 255, 0.85);
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+
+  .iframe-play:hover {
+    background: rgba(255, 255, 255, 1);
+  }
+
+  iframe[data-delayed] {
+    display: none;
+  }
 </style>
 
 <h1>2D Desmos graphs</h1>
@@ -38,3 +76,41 @@
   <div>{% include desmos/2d_graphs/rocket.html %}</div>
   <div>{% include desmos/2d_graphs/taco.html %}</div>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll("iframe").forEach(iframe => {
+    // Skip if it's already processed
+    if (iframe.closest(".iframe-wrapper")) return;
+
+    const src = iframe.src;
+    iframe.removeAttribute("src");
+    iframe.dataset.src = src;
+    iframe.dataset.delayed = "true";
+
+    // Create wrapper + placeholder
+    const wrapper = document.createElement("div");
+    wrapper.className = "iframe-wrapper";
+
+    const placeholder = document.createElement("div");
+    placeholder.className = "iframe-placeholder";
+
+    const button = document.createElement("button");
+    button.className = "iframe-play";
+    button.textContent = "▶";
+
+    placeholder.appendChild(button);
+    iframe.parentNode.insertBefore(wrapper, iframe);
+    wrapper.appendChild(placeholder);
+    wrapper.appendChild(iframe);
+
+    // Handle click
+    button.addEventListener("click", () => {
+      iframe.src = iframe.dataset.src;
+      iframe.removeAttribute("data-delayed");
+      placeholder.remove();
+      iframe.style.display = "block";
+    });
+  });
+});
+</script>
