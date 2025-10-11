@@ -1,23 +1,3 @@
-<style>
-  #calculator {
-    width: 500px;
-    height: 500px;
-  }
-</style>
-<script src="https://www.desmos.com/api/v1.12/calculator.js"></script>
 <a href="https://www.desmos.com/3d/kbhl2mqzlz"><h1>Package (3D)</h1></a>
 <p>Delivery! Again!</p>
-
-<div id="calculator"></div>
-<script>
-  // Replace with your own Desmos 3D share link (with .json at the end)
-  const graphURL = "https://www.desmos.com/3d/e/kbhl2mqzlz.json";
-
-  const elt = document.getElementById("calculator");
-  const calc3d = Desmos.Calculator3D(elt, { autosize: true });
-
-  fetch(graphURL)
-    .then(res => res.json())
-    .then(state => calc3d.setState(state))
-    .catch(err => console.error("Failed to load graph:", err));
-</script>
+<iframe src="https://www.desmos.com/3d/kbhl2mqzlz?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe>
