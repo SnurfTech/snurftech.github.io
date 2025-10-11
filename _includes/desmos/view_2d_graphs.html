@@ -22,42 +22,44 @@
     max-width: 500px;
   }
 
-  .iframe-wrapper {
-    position: relative;
-    width: 500px;
-    height: 500px;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background: #000; /* placeholder background */
-  }
+.iframe-wrapper {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
 
-  .iframe-placeholder {
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(0, 0, 0, 0.7);
-  }
+.iframe-placeholder {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
 
-  .iframe-play {
-    font-size: 1.5em;
-    background: rgba(255, 255, 255, 0.85);
-    border: none;
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    cursor: pointer;
-    transition: background 0.2s;
-  }
+.iframe-play {
+  font-size: 1.5em;
+  background: rgba(255, 255, 255, 0.85);
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
 
-  .iframe-play:hover {
-    background: rgba(255, 255, 255, 1);
-  }
+.iframe-play:hover {
+  background: rgba(255, 255, 255, 1);
+}
 
-  iframe[data-delayed] {
-    display: none;
-  }
+iframe[data-delayed] {
+  display: none;
+}
+
 </style>
 
 <h1>2D Desmos graphs</h1>
@@ -79,20 +81,32 @@
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll("iframe").forEach(iframe => {
-    // Skip if it's already processed
-    if (iframe.closest(".iframe-wrapper")) return;
+    if (iframe.closest(".iframe-wrapper")) return; // already handled
 
     const src = iframe.src;
     iframe.removeAttribute("src");
     iframe.dataset.src = src;
     iframe.dataset.delayed = "true";
 
-    // Create wrapper + placeholder
+    // Fixed size
+    iframe.width = 500;
+    iframe.height = 500;
+
+    // Pick preview image:
+    // Option 1 — from iframe[data-preview] (if you can add it in HTML)
+    // Option 2 — set by URL pattern (below)
+    let preview = iframe.dataset.preview;
+
+    // Default fallback image
+    if (!preview) preview = "{{ 'assets/images/favicon.ico' | absolute_url }}"; // <- change this to your default
+
+    // Create wrapper and placeholder
     const wrapper = document.createElement("div");
     wrapper.className = "iframe-wrapper";
 
     const placeholder = document.createElement("div");
     placeholder.className = "iframe-placeholder";
+    placeholder.style.backgroundImage = `url('${preview}')`;
 
     const button = document.createElement("button");
     button.className = "iframe-play";
@@ -103,8 +117,8 @@ document.addEventListener("DOMContentLoaded", () => {
     wrapper.appendChild(placeholder);
     wrapper.appendChild(iframe);
 
-    // Handle click
-    button.addEventListener("click", () => {
+    // Load iframe on click
+    placeholder.addEventListener("click", () => {
       iframe.src = iframe.dataset.src;
       iframe.removeAttribute("data-delayed");
       placeholder.remove();
