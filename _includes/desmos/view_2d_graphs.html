@@ -24,21 +24,20 @@
 
   .iframe-wrapper {
     position: relative;
-    display: inline-block;
-    width: 100%;
-    max-width: 600px;
-    aspect-ratio: 16 / 9;
+    width: 500px;
+    height: 500px;
     overflow: hidden;
     border: 1px solid #ccc;
+    background: #000; /* placeholder background */
   }
 
   .iframe-placeholder {
     position: absolute;
     inset: 0;
-    background: #000;
     display: flex;
     align-items: center;
     justify-content: center;
+    background: rgba(0, 0, 0, 0.7);
   }
 
   .iframe-play {
