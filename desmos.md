@@ -17,6 +17,6 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-{% include desmos/view_2d_graphs.html %}
+{% include desmos/view_art.html %}
 </div>
 </section>
