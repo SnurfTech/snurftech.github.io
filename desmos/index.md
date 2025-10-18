@@ -12,11 +12,8 @@ nav-menu: true
 <!-- One -->
 <section id="one">
 	<div class="inner">
-		<header class="major">
-			<h1>Desmos Art</h1>
-		</header>
 
 <!-- Content -->
-{% include desmos/view_art.html %}
+{% include desmos/main.html %}
 </div>
 </section>
