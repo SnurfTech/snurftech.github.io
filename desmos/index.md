@@ -17,3 +17,4 @@ nav-menu: true
 {% include desmos/main.html %}
 </div>
 </section>
+</div>
