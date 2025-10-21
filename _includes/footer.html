@@ -73,10 +73,17 @@
 						<li>
 							<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
 								<span class="label">{{ key_value[0] }}</span>
+								<p class="label">{{ key_value[1] }}</p>
 							</a>
 						</li>
 					{% endif %}
 				{% endfor %}
+				<li>
+					<a href="#" class="icon alt fa-cookie-bite" onclick="return klaro.show();">
+						<span class="label">cookie-bite</span>
+						<p class="label">Cookies</p>
+					</a>
+				</li>
 			</ul>
 			<!--
 			<ul class="copyright">
