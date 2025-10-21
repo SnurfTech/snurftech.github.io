@@ -71,7 +71,7 @@ When you first visit my site, you are presented with a cookie banner that allows
 
 - Manage Preferences (to individually enable or disable categories like Analytics).
 
-You can change or withdraw your consent at any time by clicking on the button that looks like a cookie with a bite taken out of it, which is permanently available in bottom-right corner of my website.
+You can change or withdraw your consent at any time by clicking on the option that says "Cookies" with a cookie icon next to it, which is permanently available at the page footer at the bottom of my website.
 
 ### Browser Settings
 
