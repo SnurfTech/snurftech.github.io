@@ -1,6 +1,6 @@
 # Cookie Policy
 
-Effective Date: October 19 2025 snurftech.com 
+Effective Date: October 20 2025 snurftech.com 
 
 I use cookies and other similar tracking technologies on my website, [https://snurftech.com](https://snurftech.com).
 
