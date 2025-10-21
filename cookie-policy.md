@@ -44,7 +44,7 @@ Below is a breakdown of the specific cookies I use:
 
 | Type	| Name | Provider | Purpose | Storage Method | Duration |
 |:------|:-----|:---------|:--------|:---------------|:---------|
-| Strictly Necessary | silktideCookieChoice_[category] | snurftech.com | Stores your cookie consent preferences. | localStorage | Until manually cleared |
+| Strictly Necessary | klaro | snurftech.com | Stores your cookie consent preferences. | Cookie | 30 days |
 | Analytics/Performance | \_ga | Google Analytics | Distinguishes unique users and expires if a user does not return. | Cookie | Up to 2 years |
 | Analytics/Performance | \_ga\_<GA4_MEASUREMENT_ID> | Google Analytics | Used to persist session state. | Cookie | Up to 2 years |
 | Analytics/Performance | \_gid | Google Analytics | Used to track unique users within a single day. | Cookie | 24 hours |
