@@ -102,7 +102,7 @@ var klaroConfig = {
         zz: {
             privacyPolicyUrl: '/privacy',
 
-        }
+        },
         en: {
             privacyPolicyUrl: '/privacy',
             consentModal: {
