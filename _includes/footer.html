@@ -71,26 +71,16 @@
 				{% for key_value in site.socials %}
 					{% if key_value[1] %}
 						<li>
-							<div style="display: flex; align-items: center;">
-								<a style="flex: 1; padding: 10px;" href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
-									<span class="label">{{ key_value[0] }}</span>
-								</a>
-								<a style="flex: 1; padding: 10px;" href="{{ key_value[1] }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
-									<p class="label">{{ key_value[1] }}</p>
-								</a>
-							</div>
+							<a href="{{ key_value[1] }}" class="icon alt fa-{{ key_value[0] | downcase }}" target="_blank" rel="noopener noreferrer" aria-label="{{ key_value[0] }}">
+								<span class="label">{{ key_value[0] }}</span>
+							</a>
 						</li>
 					{% endif %}
 				{% endfor %}
 				<li>
-					<div style="display: flex; align-items: center;">
-						<a style="flex: 1; padding: 10px;" href="#" class="icon alt fa-cookie-bite" onclick="return klaro.show();">
-							<span class="label">cookie-bite</span>
-						</a>
-						<a style="flex: 1; padding: 10px;" href="#" onclick="return klaro.show();">
-							<p class="label">Cookies</p>
-						</a>
-					</div>
+					<a href="#" class="icon alt fa-cookie-bite" onclick="return klaro.show();">
+						<span class="label">cookie-bite</span>
+					</a>
 				</li>
 			</ul>
 			<!--
