@@ -100,16 +100,15 @@ var klaroConfig = {
             This can e.g. be useful for defining a fallback privacy policy URL.
         */
         zz: {
-            privacyPolicyUrl: '/privacy',
+            privacyPolicyUrl: '/cookie-policy',
 
         },
         en: {
-            privacyPolicyUrl: '/privacy',
+            privacyPolicyUrl: '/cookie-policy',
             consentModal: {
                 description:
                     'I use cookies on our site to enhance your user experience, ' + 
-                    'provide personalized content, and analyze my traffic. ' + 
-                    '<a href="/cookie-policy">Cookie Policy</a>.',
+                    'provide personalized content, and analyze my traffic.',
             },
             purposes: {
                 analytics: {
