@@ -2,7 +2,7 @@
 layout: page
 title: Privacy Policy
 description: This is the Privacy Policy for this website.
-nav-menu: false
+nav-menu: true
 show_tile: false
 ---
 
