@@ -6,6 +6,16 @@ nav-menu: true
 show_tile: false
 ---
 
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>Privacy Policy</h1>
+		</header>
+
 # Privacy Policy
 
 Effective Date: October 22, 2025 snurftech.com
@@ -109,3 +119,6 @@ I may update this Privacy Policy from time to time to reflect changes to my data
 If you have any questions or concerns about this Privacy Policy, your data, or my use of cookies, please contact me at:
 
 Email: contact@snurftech.com
+
+</div>
+</section>
