@@ -16,7 +16,7 @@ show_tile: false
 			<h1>Privacy Policy</h1>
 		</header>
 
-<div id="markdown-target">
+<div id="markdown2html">
 
 Effective Date: October 22, 2025 snurftech.com
 
