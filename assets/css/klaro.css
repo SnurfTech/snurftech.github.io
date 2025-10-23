@@ -22,6 +22,11 @@ to create a white background.
 */
 /* Spacing */
 /* Breakpoints */
+
+input[type="checkbox"], input[type="radio"] {
+    padding-left: 5em;
+}
+
 .klaro {
   font-family: inherit;
   font-family: var(--font-family, inherit);
