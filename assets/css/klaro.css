@@ -352,7 +352,7 @@ to create a white background.
 .klaro .cookie-notice .cm-btn.cm-btn-info {
   display: flex;
   align-items: center;
-  height: auto;
+  height: 3.5em;
   background-color: #2581c4;
   background-color: var(--blue1, #2581c4);
 }
