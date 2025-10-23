@@ -16,7 +16,7 @@ show_tile: false
 			<h1>Privacy Policy</h1>
 		</header>
 
-# Privacy Policy
+<div id="markdown-target">
 
 Effective Date: October 22, 2025 snurftech.com
 
@@ -121,4 +121,7 @@ If you have any questions or concerns about this Privacy Policy, your data, or m
 Email: contact@snurftech.com
 
 </div>
+</div>
 </section>
+
+{% include markdown2html.html %}
