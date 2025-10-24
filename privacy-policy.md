@@ -16,8 +16,6 @@ show_tile: false
 			<h1>Privacy Policy</h1>
 		</header>
 
-<div id="markdown2html">
-
 Effective Date: October 22, 2025 snurftech.com
 
 This Privacy Policy explains how SnurfTech ("I," "me," or "my") collects, uses, and shares information when you visit or use my website, https://snurftech.com. It also details your privacy rights and how I comply with data protection regulations, including through the use of cookies and third-party scripts.
@@ -121,7 +119,5 @@ If you have any questions or concerns about this Privacy Policy, your data, or m
 Email: contact@snurftech.com
 
 </div>
-</div>
 </section>
-
-{% include markdown2html.html %}
+</div>
