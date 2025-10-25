@@ -24,7 +24,17 @@ to create a white background.
 /* Breakpoints */
 
 input[type="checkbox"] {
-    opacity: 0;
+    &:checked + label {
+        &:before {
+            opacity: 0;
+        }
+    }
+
+    &:checked + label {
+        &:before {
+            opacity: 0;
+        }
+    }
 }
 
 .klaro {
