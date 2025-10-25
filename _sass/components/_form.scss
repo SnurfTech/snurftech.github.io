@@ -164,6 +164,7 @@
 				text-align: center;
 				top: 0;
 				width: (_size(element-height) * 0.6);
+				opacity: 0;
 			}
 		}
 
@@ -173,6 +174,7 @@
 				border-color: _palette(highlight);
 				content: '\f00c';
 				color: _palette(bg);
+				opacity: 0;
 			}
 		}
 
@@ -223,4 +225,5 @@
 		opacity: 1.0;
 
 	}
+
 
