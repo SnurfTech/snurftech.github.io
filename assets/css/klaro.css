@@ -23,20 +23,6 @@ to create a white background.
 /* Spacing */
 /* Breakpoints */
 
-input[type="checkbox"] {
-    &:checked + label {
-        &:before {
-            opacity: 0;
-        }
-    }
-
-    &:checked + label {
-        &:before {
-            opacity: 0;
-        }
-    }
-}
-
 .klaro {
   font-family: inherit;
   font-family: var(--font-family, inherit);
