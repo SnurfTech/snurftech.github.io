@@ -6,15 +6,7 @@ nav-menu: true
 show_tile: false
 ---
 
-<!-- Main -->
-<div id="main" class="alt">
-
-<!-- One -->
-<section id="one">
-	<div class="inner">
-		<header class="major">
-			<h1>Privacy Policy</h1>
-		</header>
+{% capture markdown %}
 
 Effective Date: October 22, 2025 snurftech.com
 
@@ -118,6 +110,19 @@ If you have any questions or concerns about this Privacy Policy, your data, or m
 
 Email: contact@snurftech.com
 
+{% endcapture %}
+
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>Privacy Policy</h1>
+		</header>
+
+{{ markdown | markdownify }}
+
 </div>
 </section>
-</div>
