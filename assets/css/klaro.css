@@ -665,7 +665,8 @@ to create a white background.
   margin-right: 0;
   bottom: 0;
   padding: 1em;
-  padding-top: 0;
+  padding-top: 1;
+  display: flex;
 }
 .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body p {
   margin-bottom: 0.5em;
