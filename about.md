@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-description: Stuff about me.
+description: Stuff about me
 image: assets/images/favicon.ico
 nav-menu: true
 ---
