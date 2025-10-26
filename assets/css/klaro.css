@@ -661,12 +661,12 @@ to create a white background.
   padding-top: 0.5em;
 }
 .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body {
+  display: flex;
   margin-bottom: 0;
   margin-right: 0;
   bottom: 0;
-  padding: 1em;
-  padding-top: 1;
-  display: flex;
+  padding: 0;
+  padding-top: 1em;
 }
 .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body p {
   margin-bottom: 0.5em;
