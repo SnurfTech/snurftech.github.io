@@ -497,6 +497,9 @@ to create a white background.
   flex-flow: row;
   justify-content: space-between;
 }
+.klaro .cookie-modal .cm-modal .cm-footer-buttons button {
+  width: 15em !important;
+}
 .klaro .cookie-modal .cm-modal .cm-footer .cm-powered-by {
   font-size: 0.8em;
   padding-top: 4px;
