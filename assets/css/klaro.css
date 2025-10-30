@@ -681,6 +681,7 @@ to create a white background.
 .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-learn-more {
   display: inline-block;
   flex-grow: 1;
+  margin-bottom: -2.5em;
 }
 .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-buttons {
   display: inline-block;
@@ -709,7 +710,7 @@ to create a white background.
 }
 .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-ok a,
 .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-ok div {
-  margin-top: 0.5em;
+  margin-top: 1.5em;
 }
 .klaro .cookie-modal-notice {
   background-color: #333;
