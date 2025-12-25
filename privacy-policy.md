@@ -108,7 +108,7 @@ I may update this Privacy Policy from time to time to reflect changes to my data
 
 If you have any questions or concerns about this Privacy Policy, your data, or my use of cookies, please contact me at:
 
-Email: contact@snurftech.com
+Email: snurfwork@outlook.com
 
 {% endcapture %}
 
