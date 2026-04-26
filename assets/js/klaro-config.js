@@ -107,7 +107,7 @@ var klaroConfig = {
             privacyPolicyUrl: '/privacy-policy',
             consentModal: {
                 description:
-                    'I use cookies on our site to enhance your user experience, ' + 
+                    'I use cookies on my site to enhance your user experience, ' + 
                     'provide personalized content, and analyze my traffic.',
             },
             purposes: {
