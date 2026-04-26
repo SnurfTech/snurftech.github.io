@@ -18,7 +18,7 @@ show_tile: false
 
 <script>
   // URL of the Markdown file
-  const markdownUrl = 'https://raw.githubusercontent.com/{{ site.author }}/awesome-command-blocks/raw/refs/heads/main/command-block-combinations/orbital-strike-cannon-stab-shot.md';
+  const markdownUrl = 'https://raw.githubusercontent.com/{{ site.author }}/awesome-command-blocks/refs/heads/main/command-block-combinations/orbital-strike-cannon-stab-shot.md';
 
   // Fetch the Markdown file from the URL
   fetch(markdownUrl)
