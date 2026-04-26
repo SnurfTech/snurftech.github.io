@@ -97,8 +97,8 @@ You can manage cookies through your web browser settings to block, delete, or vi
 
 - [Cookie settings in Chrome](https://support.google.com/chrome/answer/95647)
 - [Cookie settings in Firefox](https://support.mozilla.org/en-US/kb/enable-and-disable-cookies-website-preferences)
-- [Cookie settings in Internet Explorer](https://www.google.com/search?q=https://support.microsoft.com/en-us/windows/delete-and-manage-cookies-168dab11-0753-043d-7c16-ede59475ba6e)
-- [Cookie settings in Safari](https://www.google.com/search?q=https://support.apple.com/guide/safari/manage-cookies-and-website-data-sfri11471/mac)
+- [Cookie settings in Internet Explorer](https://support.microsoft.com/en-us/windows/manage-cookies-in-microsoft-edge-view-allow-block-delete-and-use-168dab11-0753-043d-7c16-ede5947fc64d)
+- [Cookie settings in Safari](https://help.apple.com/safari/mac/8.0/en.lproj/sfri11471.html)
 
 ## 6. Updates to this Policy
 
