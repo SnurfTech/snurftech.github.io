@@ -4,6 +4,7 @@ title: Andromeda
 description: "Andromeda is a - What should I call it? I don't know exactly yet. Right now Andromeda is a group of two people: SnurfTech (me) and gitventurer"
 image: assets/images/andromedaofficial.png
 nav-menu: false
+show_tile: false
 ---
 <!-- Main -->
 <div id="main" class="alt">
