@@ -42,7 +42,7 @@ nav-menu: true
   <tr>
     <td class="table-element">Orbital Strike Cannon (Stab Shot)</td>
 	<td class="table-element">The infamous Orbital Strike Cannon Stab Shot in Minecraft Java Edition 1.21.11+ with just command blocks.</td>
-    <td class="table-element"><a href="https://snurftech.com/projects/orbital-strike-cannon-stab-shot">https://snurftech.com/projects/orbital-strike-cannon-stab-shot</a></td>
+    <td class="table-element"><a href="https://snurftech.com/awesome-command-blocks/orbital-strike-cannon-stab-shot">https://snurftech.com/awesome-command-blocks/orbital-strike-cannon-stab-shot</a></td>
   </tr>
   <tr>
 	<td class="table-element">Throwable TNT</td>
