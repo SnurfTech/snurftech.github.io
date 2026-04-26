@@ -56,4 +56,4 @@ nav-menu: true
   </tr>
 </table>
 
-<h1><a href="https://github.com/SnurfTech/awesome-command-blocks">GitHub Repository</a></h1>
+<h3><a href="https://github.com/SnurfTech/awesome-command-blocks">GitHub Repository</a></h3>
