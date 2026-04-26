@@ -22,8 +22,8 @@ nav-menu: true
   <tr>
     <th class="table-element">Name</th>
 	<th class="table-element">Description</th>
-	<th class="table-element">Type</th>
-    <th class="table-element">Link</th>
+	<th class="table-element">Repository type</th>
+    <th class="table-element">See more</th>
   </tr>
   <tr>
 	<td class="table-element">Marz</td>
