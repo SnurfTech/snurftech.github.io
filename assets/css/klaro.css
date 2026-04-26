@@ -707,6 +707,7 @@ to create a white background.
   flex-wrap: wrap;
   justify-content: right;
   align-items: baseline;
+  padding: 0.1em;
 }
 .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-ok a,
 .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-ok div {
