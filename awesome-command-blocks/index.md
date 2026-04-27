@@ -1,7 +1,7 @@
 ---
 title: Awesome Command Blocks
 layout: page
-description: "My awesome command block combinations"
+description: "My awesome command block combinations for Minecraft Java Edition"
 image: assets/images/awesome_command_blocks.png
 nav-menu: true
 ---
