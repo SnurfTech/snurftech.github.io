@@ -54,6 +54,26 @@ nav-menu: true
     <td class="table-element">A magic axe that automatically mines an entire tree for you as long as you mine one block of it!</td>
     <td class="table-element"><a href="https://snurftech.com/awesome-command-blocks/treefeller-axe">https://snurftech.com/awesome-command-blocks/treefeller-axe</a></td>
   </tr>
+  <tr>
+	<td class="table-element">Lemon</td>
+	<td class="table-element">A fully edible lemon in vanilla Minecraft!</td>
+	<td class="table-element"><a href="https://snurftech.com/awesome-command-blocks/lemon">https://snurftech.com/awesome-command-blocks/lemon</a></td>
+  </tr>
+  <tr>
+	<td class="table-element">Green Apple</td>
+	<td class="table-element">A fully edible green apple in vanilla Minecraft!</td>
+	<td class="table-element"><a href="https://snurftech.com/awesome-command-blocks/green-apple">https://snurftech.com/awesome-command-blocks/green-apple</a></td>
+  </tr>
+  <tr>
+	<td class="table-element">Sushi</td>
+	<td class="table-element">A fully edible sushi in vanilla Minecraft!</td>
+	<td class="table-element"><a href="https://snurftech.com/awesome-command-blocks/sushi">https://snurftech.com/awesome-command-blocks/sushi</a></td>
+  </tr>
+  <tr>
+	<td class="table-element">Cheeseburger</td>
+	<td class="table-element">A fully edible cheeseburger in vanilla Minecraft!</td>
+	<td class="table-element"><a href="https://snurftech.com/awesome-command-blocks/cheeseburger">https://snurftech.com/awesome-command-blocks/cheeseburger</a></td>
+  </tr>
 </table>
 
 <h3><a href="https://github.com/SnurfTech/awesome-command-blocks">GitHub Repository</a></h3>
