@@ -13,7 +13,7 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Awesome Command Blocks</h1>
+			<h1>My awesome command blocks combinations</h1>
 		</header>
 
 <!-- Content -->
