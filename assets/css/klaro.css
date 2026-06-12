@@ -682,10 +682,12 @@ to create a white background.
   display: inline-block;
   flex-grow: 1;
   margin-bottom: -2.5em;
+  margin-left: 2em !important;
 }
 .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-buttons {
   display: inline-block;
   margin-top: -0.5em;
+  margin-left: 2em !important;
 }
 @media (max-width: 384px) {
   .klaro .cookie-notice:not(.cookie-modal-notice) .cn-body .cn-buttons {
