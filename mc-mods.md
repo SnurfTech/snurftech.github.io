@@ -1,4 +1,4 @@
-<img width="1918" height="988" alt="image" src="https://github.com/user-attachments/assets/4dec90d7-ce8a-447a-ba2f-38ef193f6c51" />---
+---
 layout: page
 title: Minecraft Mods & Mod Packs
 description: My custom Minecraft mods and mod packs
