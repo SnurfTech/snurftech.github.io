@@ -55,6 +55,16 @@ iframe[data-delayed] {
 .center {
   text-align: center;
 }
+
+@media (max-width: 1280px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .grid > div {
+    justify-self: center;
+  }
+}
 </style>
 
 <script>
