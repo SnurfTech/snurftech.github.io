@@ -22,6 +22,7 @@ nav-menu: true
   <tr>
     <th class="table-element">Name</th>
 	<th class="table-element">Description</th>
+	<th class="table-element">License</th>
 	<th class="table-element">Type</th>
 	<th class="table-element">Loader(s)</th>
 	<th class="table-element">Supported version(s)</th>
@@ -31,6 +32,7 @@ nav-menu: true
   <tr>
 	<td class="table-element">The TNT Update</td>
 	<td class="table-element">This mod adds a bunch of cool new types of TNT to the game.</td>
+	<td class="table-element">MIT</td>
 	<td class="table-element">Mod</td>
 	<td class="table-element">Neoforge</td>
 	<td class="table-element">1.21.8</td>
@@ -40,6 +42,7 @@ nav-menu: true
   <tr>
 	<td class="table-element">The Emerald Update</td>
 	<td class="table-element">This mod adds emerald tools and armor to Minecraft 1.21.8.</td>
+	<td class="table-element">MIT</td>
 	<td class="table-element">Mod</td>
   	<td class="table-element">Neoforge</td>
 	<td class="table-element">1.21.8</td>
