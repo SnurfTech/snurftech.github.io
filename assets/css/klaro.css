@@ -751,3 +751,15 @@ to create a white background.
 .klaro .cookie-notice-hidden {
   display: none !important;
 }
+
+.klaro .cookie-notice:not(.cookie-modal-notice) {
+  border-radius: 4px !important;
+  position: fixed !important;
+  right: 20px !important;
+  bottom: 20px !important;
+  left: auto !important;
+  max-width: 400px !important;
+  width: auto !important;
+  box-shadow: 0 4px 6px rgba(0,0,0,.2),
+              5px 5px 10px rgba(0,0,0,.19) !important;
+}
