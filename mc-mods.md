@@ -12,8 +12,38 @@ nav-menu: true
 <!-- One -->
 <section id="one">
 	<div class="inner">
+		<header class="major">
+			<h1>My custom Minecraft mods and mod packs</h1>
+		</header>
 
 <!-- Content -->
-{% include mc-mods.html %}
-</div>
-</section>
+
+<table class="table table-element">
+  <tr>
+    <th class="table-element">Name</th>
+	<th class="table-element">Description</th>
+	<th class="table-element">Type</th>
+	<th class="table-element">Loader(s)</th>
+	<th class="table-element">Supported version(s)</th>
+    <th class="table-element">Modrinth link</th>
+	<th class="table-element">Source code</th>
+  </tr>
+  <tr>
+	<td class="table-element">The TNT Update</td>
+	<td class="table-element">This mod adds a bunch of cool new types of TNT to the game.</td>
+	<td class="table-element">Mod</td>
+	<td class="table-element">Neoforge</td>
+	<td class="table-element">1.21.8</td>
+	<td class="table-element"><a href="https://modrinth.com/project/the-tnt-update">https://modrinth.com/project/the-tnt-update</a></td>
+	<td class="table-element"><a href="https://github.com/SnurfTech/the-tnt-update">https://github.com/SnurfTech/the-tnt-update</a></td>
+  </tr>
+  <tr>
+	<td class="table-element">The Emerald Update</td>
+	<td class="table-element">This mod adds emerald tools and armor to Minecraft 1.21.8.</td>
+	<td class="table-element">Mod</td>
+  	<td class="table-element">Neoforge</td>
+	<td class="table-element">1.21.8</td>
+	<td class="table-element"><a href="https://modrinth.com/project/snurftechs-emerald-update">https://modrinth.com/project/snurftechs-emerald-update</a></td>
+	<td class="table-element"><a href="https://github.com/SnurfTech/the-emerald-update">https://github.com/SnurfTech/the-emerald-update</a></td>
+  </tr>
+</table>
