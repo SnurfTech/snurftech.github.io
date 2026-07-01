@@ -20,7 +20,7 @@
 <h2>Legal and Guidelines</h2>
 <ul>
   <li>Read our <a href="https://www.snurftech.com/privacy-policy.html">Privacy Policy</a></li>
-  <li>See the project <a href="LICENSE.md">License</a></li>
+  <li>See the project <a href="LICENSE">License</a></li>
 </ul>
 
 <h2>Visit</h2>
