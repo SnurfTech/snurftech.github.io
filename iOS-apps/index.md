@@ -2,7 +2,7 @@
 title: iOS Apps
 layout: page
 description: "My iOS apps that I refuse to publish to the App Store"
-image: assets/images/iOS-apps.jpg
+image: assets/images/iOS_apps.jpg
 nav-menu: true
 ---
 
@@ -28,6 +28,11 @@ nav-menu: true
 	<td class="table-element">Flappybird</td>
 	<td class="table-element">A version of https://github.com/aaarafat/JS-Flappy-Bird but as an iOS app.</td>
 	<td class="table-element"><a href="https://snurftech.com/Flappybird">https://snurftech.com/Flappybird</a></td>
+  </tr>
+  <tr>
+	<td class="table-element">wSH</td>
+	<td class="table-element">An alternative to the iOS app, iSH, which instead uses v86 to run.</td>
+	<td class="table-element"><a href="https://snurftech.com/wSH">https://snurftech.com/wSH</a></td>
   </tr>
 </table>
 
