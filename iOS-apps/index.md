@@ -1,7 +1,7 @@
 ---
 title: iOS Apps
 layout: page
-description: "My iOS apps that I refuse to publish to the App Store"
+description: "My iOS apps that are technically just web clips."
 image: assets/images/iOS_apps.jpg
 nav-menu: true
 ---
@@ -13,7 +13,7 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>My iOS apps</h1>
+			<h1>My iOS "apps"</h1>
 		</header>
 
 <!-- Content -->
