@@ -31,7 +31,7 @@ nav-menu: true
   </tr>
   <tr>
 	<td class="table-element">wSH</td>
-	<td class="table-element">An alternative to the iOS app, iSH, which instead uses v86 to run.</td>
+	<td class="table-element">An iOS app that uses v86 to run Alpine Linux.</td>
 	<td class="table-element"><a href="https://snurftech.com/wSH">https://snurftech.com/wSH</a></td>
   </tr>
 </table>
