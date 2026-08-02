@@ -1,7 +1,7 @@
 ---
 title: iOS Apps
 layout: page
-description: "My iOS apps that are technically just web clips."
+description: "My iOS apps that are technically just web clips"
 image: assets/images/iOS_apps.jpg
 nav-menu: true
 ---
