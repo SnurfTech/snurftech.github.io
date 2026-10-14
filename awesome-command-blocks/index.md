@@ -74,6 +74,11 @@ nav-menu: true
 	<td class="table-element">A fully edible cheeseburger in vanilla Minecraft!</td>
 	<td class="table-element"><a href="https://snurftech.com/awesome-command-blocks/cheeseburger">https://snurftech.com/awesome-command-blocks/cheeseburger</a></td>
   </tr>
+  <tr>
+	<td class="table-element">Lucky Block</td>
+	<td class="table-element">A fully working lucky block in vanilla Minecraft!</td>
+	<td class="table-element"><a href="https://snurftech.com/awesome-command-blocks/lucky-block">https://snurftech.com/awesome-command-blocks/lucky-block</a></td>
+  </tr>
 </table>
 
 <!--
