@@ -34,7 +34,7 @@ nav-menu: true
   <tr>
 	<td class="table-element">The TNT Update</td>
 	<td class="table-element">This mod adds a bunch of cool new types of TNT to the game.</td>
-	<td class="table-element">MIT</td>
+	<td class="table-element">Unlicense</td>
 	<td class="table-element">Mod</td>
 	<td class="table-element">Neoforge</td>
 	<td class="table-element">1.21.8</td>
@@ -46,7 +46,7 @@ nav-menu: true
   <tr>
 	<td class="table-element">The Emerald Update</td>
 	<td class="table-element">This mod adds emerald tools and armor to Minecraft 1.21.8.</td>
-	<td class="table-element">MIT</td>
+	<td class="table-element">Unlicense</td>
 	<td class="table-element">Mod</td>
   	<td class="table-element">Neoforge</td>
 	<td class="table-element">1.21.8</td>
@@ -58,7 +58,7 @@ nav-menu: true
   <tr>
 	<td class="table-element">Rocket Launcher</td>
 	<td class="table-element">This mod adds a rocket launcher to Minecraft 1.21.8.</td>
-	<td class="table-element">MIT</td>
+	<td class="table-element">Unlicense</td>
 	<td class="table-element">Mod</td>
   	<td class="table-element">Neoforge</td>
 	<td class="table-element">1.21.8</td>
