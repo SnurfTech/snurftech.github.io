@@ -2,7 +2,7 @@
 layout: page
 title: Firefox Extensions
 description: My awesome Firefox extensions
-image: assets/images/firefox-extensions.png
+image: assets/images/firefox-extensions.jpg
 nav-menu: true
 ---
 
